@@ -7,10 +7,10 @@
     a {
       margin-left: 15px;
       cursor: pointer;
-      color: $blue;
+      color: darkblue;
 
       &:hover {
-        color: $cobalt;
+        color: $blue;
       }
     }
   }
@@ -22,7 +22,7 @@
   .nav-link-wrapper {
     height: 22px;
     border-bottom: 1px solid transparent;
-    transition: 0.5s ease-in-out;
+    transition: 0.25s ease-in-out;
     margin-right: 20px;
     text-transform: uppercase;
     font-size: 0.9rem;
@@ -31,16 +31,11 @@
       color: $grey;
       text-decoration: none;
       &:hover {
-        color: black;
+        color: rgb(0, 0, 0);
       }
     }
 
-    &:hover {
-      border-bottom: 1px solid black;
-    }
-
     .nav-link-active {
-      border-bottom: 1px solid black;
       color: black;
     }
   }

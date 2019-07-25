@@ -10,6 +10,7 @@
 
   .image-uploaders {
     @include base-grid();
-    grid-template-columns: 200px;
+    grid-template-columns: 150px;
+    grid-template-rows: 125px;
   }
 }

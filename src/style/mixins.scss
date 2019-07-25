@@ -4,8 +4,10 @@
   font-size: 1em;
   font-weight: 500;
   border: 1px solid transparent;
-  transition: all 0.5s ease-in-out;
-  background-color: $blue;
+  transition: all 0.25s ease-in-out;
+  background-color: #00008b;
+  -webkit-box-shadow: inset 0px 0px 13px 0px rgba(80, 131, 231, 0.49);
+  box-shadow: inset 0px 0px 13px 0px rgba(80, 131, 231, 0.49);
   color: white;
 
   &:active,
@@ -14,7 +16,9 @@
   }
 
   &:hover {
-    background-color: $dark-teal;
+    background-color: $blue;
+    -webkit-box-shadow: inset 0px 0px 13px 0px rgba(0, 0, 139, 0.49);
+    box-shadow: inset 0px 0px 13px 0px rgba(0, 0, 139, 0.49);
   }
 }
 
@@ -27,15 +31,16 @@
     border-top: 0px;
     border-right: 0px;
     border-left: 0px;
-    border-bottom: 1px solid $blue;
+    border-bottom: 1px solid darkblue;
+
     background-color: transparent;
-    transition: 0.5s all ease-in-out;
+    transition: 0.25s all ease-in-out;
     font-size: 1.1em;
     margin-bottom: 21px;
 
     &:focus {
       outline: none;
-      border-bottom: 1px solid $dark-teal;
+      border-bottom: 1px solid $blue;
     }
   }
 }

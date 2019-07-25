@@ -6,11 +6,14 @@
   @include input-element();
   input {
     margin-bottom: 0px;
+    box-shadow: none;
   }
 
   .image-uploaders {
     @include base-grid();
-    grid-template-columns: 200px 200px 200px;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 125px;
+    justify-items: center;
 
     .portfolio-manager-image-wrapper {
       img {
