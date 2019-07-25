@@ -3,6 +3,18 @@
   justify-content: space-between;
   padding: 30px;
 
+  .right-side {
+    a {
+      margin-left: 15px;
+      cursor: pointer;
+      color: $blue;
+
+      &:hover {
+        color: $cobalt;
+      }
+    }
+  }
+
   .left-side {
     display: flex;
   }
